@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { FiMail, FiMapPin, FiBriefcase, FiLinkedin } from "react-icons/fi";
+import {
+  FiMail,
+  FiMapPin,
+  FiBriefcase,
+  FiLinkedin,
+  FiPhoneCall,
+} from "react-icons/fi";
 import { profile } from "../data/profile";
 
 const Contact = () => {
@@ -13,6 +19,7 @@ const Contact = () => {
       icon: FiBriefcase,
       value: `${profile.role} at ${profile.company || "Freelancer"}`,
     },
+    { icon: FiPhoneCall, value: profile.mobile },
     { icon: FiMail, value: profile.email, link: `mailto:${profile.email}` },
     { icon: FiMapPin, value: profile.location },
   ];

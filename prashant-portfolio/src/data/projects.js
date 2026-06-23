@@ -1,32 +1,30 @@
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "ICICI Prudential Mutual Fund",
     description:
-      "A modern e-commerce platform with seamless shopping experience and intuitive UI.",
-    image: "/projects/ecommerce.png",
+      "Digital initiatives for ICICI Prudential Mutual Fund, a leading Indian asset management company serving over 7 million investors through 70,000+ partners and 300+ touchpoints. The organization brings over two decades of fund management expertise and offers diversified investment solutions across mutual funds, real estate, and international investments",
+    image:
+      "https://cdn.brandfetch.io/domain/icicipruamc.com/fallback/lettermark/theme/dark/h/400/w/400/icon?c=1bfwsmEH20zzEfSNTed",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/prashant/ecommerce",
-    live: "https://ecommerce-demo.com",
+    live: "https://www.icicipruamc.com/",
   },
   {
     id: 2,
-    title: "Dashboard Analytics",
+    title: "PRS for music",
     description:
-      "Real-time analytics dashboard with interactive charts and data visualization.",
-    image: "/projects/dashboard.png",
-    technologies: ["React", "TypeScript", "Chart.js"],
-    github: "https://github.com/prashant/dashboard",
+      "PRS for Music Limited is a leading UK-based collective rights management organization. It represents over 175,000 songwriters, composers, and music publishers globally, collecting and distributing royalties whenever their musical works and lyrics are broadcast, downloaded, streamed, or played in public.",
+    image: "/images/mymusic.png",
+    technologies: ["React", "TypeScript", "Storybook", "Contentful", "Algolia"],
     live: "https://dashboard-demo.com",
   },
   {
     id: 3,
-    title: "Social Media App",
+    title: "Blaze",
     description:
-      "A social media application with modern UI and smooth animations.",
-    image: "/projects/social.png",
-    technologies: ["React", "Framer Motion", "Tailwind CSS"],
-    github: "https://github.com/prashant/social",
-    live: "https://social-demo.com",
+      "BLAZE (blaze.me) is a leading, award-winning SaaS suite specifically designed for the cannabis industry. It provides an end-to-end management ecosystem for dispensaries, cultivators, and delivery services",
+    image: "/images/blaze.png",
+    technologies: ["React", "HTML", "CSS", "JavaScript", "TypeScript"],
+    live: "https://www.blaze.me/",
   },
 ];
